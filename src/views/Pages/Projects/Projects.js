@@ -24,9 +24,9 @@ export default function Projects() {
             I am currently working on making some of these reusable and customizable components
             available through Npm. For now, you can clone the full source code from github and try them
             out for yourself!
-            <a href="https://github.com/seanburman/portfolio" rel="noreferrer" target="_blank">
+            <a href="https://github.com/seanburman/react-portfolio" rel="noreferrer" target="_blank">
                 <p className="github-link" >
-                github.com/seanburman/portfolio
+                github.com/seanburman/react-portfolio
                 <i className="fa fa-github"></i>
                 </p>
             </a>
