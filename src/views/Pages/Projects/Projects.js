@@ -25,7 +25,7 @@ export default function Projects() {
             available through Npm. For now, you can clone the full source code from github and try them
             out for yourself!
             <a href="https://github.com/seanburman/react-portfolio" rel="noreferrer" target="_blank">
-                <p className="github-link" >
+                <p className="github-link" > 
                 github.com/seanburman/react-portfolio
                 <i className="fa fa-github"></i>
                 </p>
