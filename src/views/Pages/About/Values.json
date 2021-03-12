@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "Creativity",
+        "text": "I love being a developer because it allows me to wield my creativity to its full potential. With every project, there are limitless possibilities for improvements in <b>functionality</b>, <b>resourcefulness</b>, and <b>playfulness</b>. "
+    },
+    {
+        "id": 1,
+        "name": "Accessibility",
+        "text": "Accessible software is the way of the future. Given proper access, hundreds of millions of additional people can benefit from the software we create in an equitable fashion."
+    },
+    {
+        "id": 2,
+        "name": "Solubility",
+        "text": "<p class='solubility'><b>Software is solution based:</b></p><i>\"What problem does this solve?\" <br/>\"Does it make anybody's life easier?\"</i> <br />Answering these questions helps us effectively communicate value. "
+    }
+]

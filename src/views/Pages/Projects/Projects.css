@@ -1,0 +1,20 @@
+.projects-title {
+    color: #20A4F3;
+}
+
+p.github-link > i{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    color: #20A4F3;
+}
+
+p.github-link {
+    transition: 250ms;
+    margin-bottom: 0;
+    
+}
+
+p.github-link:hover {
+    opacity: 0.7;
+    transition: 250ms;
+}

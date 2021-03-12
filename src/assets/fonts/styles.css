@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    src: url("./Roboto/Roboto-Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 300;
+    src: url("./Ubuntu/Ubuntu-Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 300;
+    src: url("./Ubuntu/Ubuntu-LightItalic.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 400;
+    src: url("./Ubuntu/Ubuntu-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 400;
+    src: url("./Ubuntu/Ubuntu-Italic.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 500;
+    src: url("./Ubuntu/Ubuntu-Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 500;
+
+    src: url("./Ubuntu/Ubuntu-MediumItalic.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 700;
+    src: url("./Ubuntu/Ubuntu-MediumItalic.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: bold;
+    font-weight: 700;
+    src: url("./Ubuntu/Ubuntu-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: oblique;
+    font-weight: 700;
+    src: url("./Ubuntu/Ubuntu-BoldItalic.ttf") format("opentype");
+}
+
+.ubuntu {
+    font-family: Ubuntu;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+.w300 {
+    font-weight: 300;
+}
+
+.w400 {
+    font-weight: 400;
+}
+
+.w500 {
+    font-weight: 500;
+}
+
+.w600 {
+    font-weight: 600;
+}
+
+.w700 {
+    font-weight: 700;
+}
+.w700b {
+    font-weight: 700;
+    font-style: bold;
+}
+.w700bi {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.italic {
+    font-style: italic;
+}

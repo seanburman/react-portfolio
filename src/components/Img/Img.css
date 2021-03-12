@@ -1,0 +1,14 @@
+
+img.iconPic {
+    z-index: 200!important;
+    transition: 500ms;
+}
+
+img.top {
+    transition: 100ms;
+}
+
+img.selected {
+    z-index: 200;
+    transition: 250ms;
+}

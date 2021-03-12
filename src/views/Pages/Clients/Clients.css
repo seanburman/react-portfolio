@@ -1,0 +1,27 @@
+.clients-title {
+    color: #e75a7c;
+}
+
+h3.ccc {
+    margin-top: 0.5em;
+    margin-right: 1.5em;
+}
+
+img.ccc {
+    width: 150px;
+    height: auto;
+}
+
+a.ccc-link {
+    margin-top: 2em;
+    transition: 500ms
+}
+
+a.ccc-link:hover {
+    opacity: 0.7;
+    transition: 500ms
+}
+
+p.ccc-paragraph {
+    margin-bottom: 0em;
+}

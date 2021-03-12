@@ -1,0 +1,61 @@
+div.submenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: unset;
+    justify-content: center;
+    width: 100%;
+}
+
+div.submenu-item {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 .25rem 0 .25rem;
+    padding: 0 0.5rem 0 .5rem;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+div.submenu-item:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+div.submenu-item.selected {
+    /* background-color: rgb(77, 158, 66, 1); */
+    border-color: transparent;
+    outline: none;
+    cursor: default;
+}
+
+div.selected.About {
+    background-color: rgb(77, 158, 66, 1);
+}
+
+div.selected.Projects {
+    background-color: #20A4F3
+}
+
+div.selected.Clients {
+    background-color: #E75A7C
+}
+
+div.selected.Contact {
+    background-color: #f7882b
+}
+
+div.subtitle {
+    padding: 0;
+}
+div.subtitle > p {
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0;
+}
+
+div.subicon > p {
+    padding: .50rem;
+    margin: 0;
+}

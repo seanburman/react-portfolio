@@ -1,0 +1,13 @@
+.information-title {
+    color: #F7882B
+}
+
+p.contact-info {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    line-height: 1.25
+}
+
+a.contact-info {
+    color: #1d1d1d
+}

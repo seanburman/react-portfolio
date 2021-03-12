@@ -1,0 +1,11 @@
+button.close-button {
+    border-style: none;
+    background-color: transparent;
+    font-size: 1.25em;
+    position: relative;
+    left: 1em;
+}
+
+p.btn-label {
+    margin: 0
+}

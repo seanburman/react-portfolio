@@ -1,0 +1,50 @@
+div.body-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9.5em;
+    margin-left: 10px;
+    position: relative;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+  div.body-container {
+    margin-left: 0!important;
+  }
+}
+
+div.invisible {
+    opacity: 0;
+    transition: 750ms;
+}
+
+div.visible {
+    opacity: 1;
+    transition: 750ms;
+    transition-delay: 500ms;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dddddd;
+    border-radius: 2em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+  }

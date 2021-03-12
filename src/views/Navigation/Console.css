@@ -1,0 +1,110 @@
+div.menu-bar {
+    display: flex;
+    position: absolute;
+    height: 9.55em;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    /* background-color: #1d1d1d; */
+    z-index: 200;
+}
+
+div.menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    z-index: 200;
+    transition: 1s;
+}
+
+div.menu-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65%;
+    width: 0;
+    height: 0;
+    overflow: visible;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: 750ms;
+    cursor: pointer;
+}
+div.menu-item.top {
+    margin-top: 1em !important;
+    transition: 750ms;
+}
+
+div.menu-item.selected {
+    margin-top: 1em !important;
+    transition: 750ms;
+    cursor: default;
+}
+
+div.selected > p {
+    font-size: 1.4em;
+    margin-top: 6rem;
+    transition: 500ms;
+}
+
+div.surface, p.surface {
+    z-index: 200;
+}
+
+p.surface {
+    margin-top: 4.5rem;
+    transition: 750ms;
+}
+
+div.icon.selected  {
+    /* box-shadow: none !important; */
+    background-color: rgba(255, 255, 255, 0.0)!important;
+    border-color: rgba(255, 255, 255, 0.00)!important;
+    margin-top: 1.25em;
+    -webkit-box-shadow: 0px 0px 8px 7px rgba(rgba(2, 2, 2, 0.35))!important;
+    -moz-box-shadow: 0px 0px 8px 7px rgba(2, 2, 2, 0.35)!important;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.4)!important;
+    transition: 750ms;
+
+}
+
+div.icon {
+    background-color: white;
+    width: 4em !important;
+    height: 4em !important;
+    border-radius: 6px;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-color: rgba(53, 53, 53, 0);
+    position: absolute;
+    transition: 1s;
+}
+
+div.menu-item > hr {
+    visibility: hidden;
+    width: 0;
+}
+
+div.top > hr {
+    visibility: hidden;
+    width: 0;
+}
+
+div.selected > hr {
+    visibility: visible!important;
+    position: absolute;
+    top: 8.5em;
+    width: 5em;
+    border-style: solid;
+    transition: 200ms;
+    transition-delay: 500ms
+}
+
+
+

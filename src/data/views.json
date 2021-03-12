@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "name": "About",
+      "color": "84, 175, 72",
+      "selected": "",
+      "icon": {
+        "src" : "/img/space-suit.png",
+        "alt": "About",
+        "style": {
+          "width": "2.75rem",
+          "marginTop": "0.5rem"
+        },
+        "selected": {
+          "width": "3rem",
+          "marginTop": "0.8rem"
+        }
+        }
+    },
+    {
+      "id": 2,
+      "name": "Projects",
+      "color": "32, 164, 243",
+      "selected": "",
+      "icon": {
+        "src" : "/img/rocket.png",
+        "style": {
+          "width": "3rem",
+          "marginTop": "0.5rem",
+          "transition": "250ms"
+        },
+        "selected": {
+          "width": "3.75rem",
+          "marginTop": "0.5rem",
+          "transition": "250ms"
+        },
+        "alt": "Projects"
+        }
+    },
+    {
+      "id": 3,
+      "name": "Clients",
+      "color": "231, 90, 124",
+      "selected": "",
+      "icon": {
+        "src" : "/img/earth.png",
+        "style": {
+          "width": "2.5rem",
+          "marginTop": ".8rem"
+        },
+        "selected": {
+          "width": "3rem",
+          "marginTop": ".75em"
+        },
+        "alt": "Clients"
+        }
+    },
+    {
+      "id": 4,
+      "name": "Contact",
+      "color": "255, 136, 17",
+      "selected": "",
+      "icon": {
+        "src" : "/img/sattelite.png",
+        "style": {
+          "width": "2.75rem",
+          "marginTop": "0.5rem",
+          "marginRight": "0.25rem"
+        },
+        "selected": {
+          "width": "3.5rem",
+          "marginTop": "0.25rem",
+          "marginRight": "0.25rem"
+        },
+        "alt": "Contact"
+        }
+    }
+  ]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "SAIT",
+        "text": "Graduating from the <b>Southern Alberta Institute of Technology</b> in <b>Objected Oriented Software Development</b>, I come with a range of experiences from <b>Project Management</b> to <b>Rapid Application Development</b>. <p class='sait-link'><i>Read the course description here:</i><a href='https://catalog.sait.ca/preview_program.php?catoid=164&poid=35202&returnto=4615' target='blank'><br /><img src='/img/sait.svg' class='sait'/></a></p> "
+    },
+    {
+        "id": 1,
+        "name": "Practicum",
+        "text": "I completed an eight week practicum with <a href='http://3dhealthtechnologies.com/' target='_blank'><b>H3ALTH TECHNOLOGIES INC.</b></a> Specializing in <b>DevOps</b>, I worked with a team of developers and used my <b>research skills</b> to bring new and existing technologies to an <b>AWS cloud-based platform</b>.<br /><br /> In addition to technical skills, this gave me hands on experience working on a development team to find creative <b>business solutions</b>."
+    },
+    {
+        "id": 2,
+        "name": "Present",
+        "text": "<h3><i>Learning is my ultimate passion.</i></h3>That's why I continue to teach myself new technologies and practices every day. My most recent self-driven learning path includes, but is not limited to: <b>React</b>, <b>Express JS</b>, <b>Node JS</b>, <b>MongoDB</b>, and <b>Amazon Web Services</b>. <br/> This portfolio, as well as the website in <i>Clients</i> are both made with <b>React</b>."
+    }
+]

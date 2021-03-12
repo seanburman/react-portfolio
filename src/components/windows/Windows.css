@@ -1,0 +1,74 @@
+div.window {
+    background-color: rgba(15, 15, 255, 0);
+    margin-top: 1rem;
+    border-radius: 4px;
+    border-color:rgb(255, 255, 255, 0.0);
+    padding: 0;
+    width: 30rem;
+    max-width: 95%;
+}
+
+div.shadow {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.26);
+    box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.26);
+    transition: 500ms;
+}
+
+
+div.window > div.window-header {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    border-radius: 4px 4px 0px 0px;
+    transition: 500ms;
+}
+
+div.title {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    transition: 500ms;
+}
+
+div.window-header > div.buttons {
+    text-align: right;
+    width: 100%;
+    overflow:visible;
+    transition: 500ms;
+}
+
+div.window > div.window-body {
+    max-height: inherit;
+    transition: 500ms;
+}
+
+div.window > div.window-footer {
+    border-radius: 0px 0px 4px 4px;
+    max-height: inherit;
+    transition: 500ms;
+}
+
+
+div.window > div.window-solo {
+    border-radius: 4px;
+    max-height: inherit;
+    transition: 500ms;
+}
+
+div.window > div.space {
+    padding: 0.50rem 1.5rem 0.50rem 1.5rem;
+}
+
+div.window > div.more-space {
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+}
+
+div.window > div.header-space {
+    padding: 0.50rem 1.5rem 0.50rem 1.5rem;
+}
+
+div.center {
+    justify-content: center;
+}

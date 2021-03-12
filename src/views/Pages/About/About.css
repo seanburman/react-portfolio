@@ -1,0 +1,43 @@
+.values-title {
+    color: #e0ae26;
+}
+
+p.tab-info {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+.education-title {
+    color: #4d9e42;
+}
+
+a {
+    text-decoration: none;
+    color: #4d9e42;
+}
+
+img.sait {
+    width: 150px;
+    margin-top: 0.5em;
+    transition: 250ms;
+}
+
+img.sait:hover {
+    opacity: 0.7;
+    transition: 250ms;
+}
+
+p.sait-link {
+    margin-top: 1em;
+    margin-bottom: -0.5em;
+}
+
+p.solubility {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "0",
+        "name": "Story",
+        "default": "true"
+    },
+    {
+        "id": "1",
+        "name": "Education",
+        "default": "false"
+    },
+    {
+        "id": "2",
+        "name": "Mission",
+        "default": "false"
+    },
+    {
+        "id": "3",
+        "name": "Values",
+        "default": "false"
+    }
+]

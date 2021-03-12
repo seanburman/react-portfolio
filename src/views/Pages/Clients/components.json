@@ -1,0 +1,12 @@
+[
+    {
+        "id": "0",
+        "name": "Contract",
+        "default": "true"
+    },
+    {
+        "id": "1",
+        "name": "Inquiries",
+        "default": "false"
+    }
+]

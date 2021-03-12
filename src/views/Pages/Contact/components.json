@@ -1,0 +1,12 @@
+[
+    {
+        "id": "0",
+        "name": "Information",
+        "default": "true"
+    },
+    {
+        "id": "1",
+        "name": "Message Me",
+        "default": "false"
+    }
+]

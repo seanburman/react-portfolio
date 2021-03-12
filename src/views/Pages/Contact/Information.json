@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "Employers",
+        "text": "If you like my work and would like to arrange an interview, please contact me via phone or email:<p class='contact-info'><b>Sean Burman</b><br/><a href='tel:15879141797' class='contact-info'>+1 (587) 914 1797</a><br/><a href='mailto:sean@seanburman.ca' class='contact-info'>sean@seanburman.ca</a></p>"
+    },
+    {
+        "id": 1,
+        "name": "Clients",
+        "text": "For a free consultation on a web development project, please feel free to contact me directly or by using the <b>Message Me</b> feature above and I will respond within 24 hours.<p class='contact-info'><b>Sean Burman</b><br/><a href='tel:15879141797' class='contact-info'>+1 (587) 914 1797</a><br/><a href='mailto:sean@seanburman.ca' class='contact-info'>info@seanburman.ca</a></p>"
+    },
+    {
+        "id": 2,
+        "name": "Developers",
+        "text": "I am always looking for new things to work on. If you would like to collaborate on a project, please use the Message Me feature and I will respond within 24 hours!"
+    }
+]

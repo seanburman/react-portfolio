@@ -1,0 +1,76 @@
+div.title-wrapper {
+    display: flex;
+    width: auto;
+    background-color: transparent;
+    align-items: center;
+    padding: 1em 0.5em 1em 1em;
+    color: white;
+}
+
+b {
+    width: 50%;
+}
+
+div.title-wrapper > div.toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+div.toggle-arrow {
+    display: flex;
+    align-items: center;
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: white;
+}
+div.toggle-on {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+
+div.toggle-off {
+    transition: 500ms;
+}
+
+div.dropdown-hidden {
+    max-height: 0;
+    transition: 150ms;
+}
+
+div.dropdown-hidden > img {
+    height: 0;
+    width: 0;
+}
+
+div.dropdown-visible {
+    max-height: 100%;
+    color: #1d1d1d;
+    transition: 250ms;
+    border-radius: 0 0 4px 4px;
+    padding: 0;
+}
+
+div.content-visible {
+    line-height: 1;
+    max-height: 100%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 0 0 4px 4px;
+    transition: 250ms;
+    opacity: 1;
+}
+
+div.content-hidden {
+    line-height: 0;
+    color: transparent;
+    background-color: transparent;
+    max-height: 1%;
+    transition: 250ms;
+    padding: 0em 1em 0em 1em;
+    opacity: 0;
+    visibility: hidden;
+}

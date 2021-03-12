@@ -1,0 +1,39 @@
+div.tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: unset;
+    justify-content: center;
+    width: 100%;
+}
+
+div.tab {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.tab > button {
+    border-style: solid;
+    border-width:  0 0 1px 0;
+    border-color: transparent;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    background-color: transparent;
+    padding-bottom: 4px!important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+div.tab > button.highlight {
+    color: #e0ae26;
+    outline: none;
+    border-style: solid;
+    border-width: 0  0 1px 0;
+    border-color: #e0ae26;
+    cursor: auto;
+}
