@@ -33,7 +33,7 @@ export default function Projects() {
             </Dropdown>
             <Dropdown title="catherineclarkconnects.com" color="#E0AF2E">
             Catherine Clark Connects is a mental health consulting firm whose website I was commissioned to create.
-            The website is made using React and is hosted on a Ubuntu AWS EC2 instance. <br /><br />
+            The website is made using React and React Bootstrap.<br /><br />
             <CCCLink />
             <br /><br />
             </Dropdown>
