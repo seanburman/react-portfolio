@@ -40,7 +40,7 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("https://safe-chamber-60817.herokuapp.com/:6000", {
+    let response = await fetch("https://safe-chamber-60817.herokuapp.com:6000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
